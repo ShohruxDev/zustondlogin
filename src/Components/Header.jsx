@@ -28,6 +28,8 @@
 import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import useStore from "../store";
+import "./Header.css";  
+
 function Header() {
   const { isAuthenticated, logout } = useStore();
   const navigate = useNavigate();
