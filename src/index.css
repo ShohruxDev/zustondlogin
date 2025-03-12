@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header a{
+    text-decoration: none;
+}
+.header a.active {
+    color: blue;
+}
+.login-btn{
+    padding:10px 15px;
+    background-color: rgb(35, 35, 231);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.login-btn:hover{
+    background-color: blue;
+}
+.login-container{
+    width: 100vw;
+    gap: 12px;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
